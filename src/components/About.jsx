@@ -8,10 +8,14 @@ function About() {
         <h1 className="text-white text-center font-semibold roboto text-4xl">
           ABOUT US
         </h1>
-        <div className="flex flex-col text-center lg:flex-row items-center justify-center space-y-10 lg:text-left lg:space-y-0 lg:space-x-10">
-          <img src={aboutIMG} alt="img" className="w-[600px] rounded-lg" />
-          <div className="w-[600px]">
-            <p className="text-white">
+        <div className="flex flex-col text-center lg:flex-row items-center justify-center space-y-10 lg:text-left lg:space-y-0 lg:space-x-10 lg:w-[1100px] xl:w-[1200px]">
+          <img
+            src={aboutIMG}
+            alt="img"
+            className="w-[300px] h-[300px] object-cover rounded-full md:w-[600px] md:h-auto md:rounded-lg"
+          />
+          <div className="">
+            <p className="text-white p-5">
               Looking to take your business's digital presence to the next
               level? Look no further than Digital Elevation! Our team of
               experienced professionals specializes in creating custom digital

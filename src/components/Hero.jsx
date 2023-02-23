@@ -22,7 +22,7 @@ function Hero() {
   });
 
   return (
-    <div className="bg-gradient-to-b from-[#00c46c] to-black w-screen h-[50vh] flex flex-col items-center justify-center space-y-10">
+    <div className="bg-gradient-to-b from-[#00c46c] to-black w-screen h-[50vh] text-center flex flex-col items-center justify-center space-y-10">
       {/* LOGO */}
       <div>
         <h1 className="text-7xl text-white font-extrabold roboto drop-shadow-lg shadow-black">

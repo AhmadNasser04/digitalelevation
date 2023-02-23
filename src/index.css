@@ -11,3 +11,7 @@
     @apply text-lg text-white cursor-pointer roboto transition-all;
   }
 }
+
+html {
+  scroll-behavior: smooth;
+}
