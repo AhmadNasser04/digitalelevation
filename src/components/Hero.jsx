@@ -18,7 +18,7 @@ function Hero() {
       "SEM",
     ],
     loop: true,
-    delaySpeed: 1000,
+    delaySpeed: 1500,
   });
 
   return (

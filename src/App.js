@@ -1,3 +1,4 @@
+import About from "./components/About";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Hero from "./components/Hero";
@@ -6,16 +7,21 @@ import Pricing from "./components/Pricing";
 
 function App() {
   return (
-    <div className="bg-black w-screen min-h-screen scroll-smooth transition-all duration-500">
+    <div className="bg-black w-screen min-h-screen transition-all duration-500 scroll-smooth">
       {/* NAVBAVR */}
       <section>
         <NavBar />
       </section>
 
-      <div className="space-y-10">
+      <div className="space-y-16">
         {/* HERO */}
         <section id="hero">
           <Hero />
+        </section>
+
+        {/* ABOUT */}
+        <section id="about">
+          <About />
         </section>
 
         {/* PRICES */}
