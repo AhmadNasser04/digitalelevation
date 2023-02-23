@@ -12,8 +12,8 @@ const NavBar = () => {
   ];
 
   return (
-    <div className="shadow-md w-full fixed top-0 left-0">
-      <div className="md:flex items-center justify-between bg-[#1f2227] py-4 md:px-10 px-7">
+    <div className="shadow-md w-full top-0 left-0 fixed z-10">
+      <div className="md:flex items-center justify-evenly bg-[#1f2227] py-4 md:px-10 px-7">
         <div className="font-bold text-2xl cursor-default flex items-center text-white roboto">
           <span className="text-3xl text-[#00c46c] mr-1 pt-2">
             <ion-icon name="logo-ionic"></ion-icon>
@@ -41,7 +41,7 @@ const NavBar = () => {
             >
               <a
                 href={link.link}
-                className={`navItem ${
+                className={`navItem hover:text-[#00c46c] ${
                   selected === link.name && "text-[#00c46c]"
                 }`}
               >
